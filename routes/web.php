@@ -23,6 +23,11 @@ Route::get('/roles', function(){
   return view('roles');
 });
 
+Route::get('/tasks', function(){
+  return view('tasks');
+});
+
 
 Route::get('insert','RoleController@insertform');
 Route::post('roles','RoleController@insert');
+Route::post('tasks','TasksController@insert');

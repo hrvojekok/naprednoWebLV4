@@ -19,6 +19,9 @@
                     <div class="links"><br>
                           <a href="/roles">Select yout role</a>
                     </div>
+                    <div class="links"><br>
+                          <a href="/tasks">Add new task</a>
+                    </div>
                 </div>
             </div>
         </div>
